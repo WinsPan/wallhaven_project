@@ -2,7 +2,7 @@
 FROM python:3.12.4-alpine
 
 # 设置工作目录
-WORKDIR /home
+WORKDIR /app
 
 # 复制项目的依赖文件
 COPY requirements.txt .
